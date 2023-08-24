@@ -1,0 +1,492 @@
+/* element */
+* {
+    color: var(--lol-white);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+/* utility */
+.flex-grow {
+    flex-grow: 1;
+}
+
+.animated-smooth {
+	transition: 0.25s ease-out;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+.shout-layout {
+    width: max-content;
+    max-width: 300px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 12px;
+    bottom: 90px;
+    left: 20px;
+}
+
+.show {
+    display: block !important;
+}
+
+/* ui */
+.modal { 
+    position:absolute; 
+    width: 400px; 
+    height: 320px; 
+    padding: 15px 10px;
+    padding-top: 25px;
+    background: var(--lol-black); 
+    border-radius: 12px;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 200; 
+    display: none;
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container>* {
+    margin-bottom: 15px;
+}
+
+.modal-mid {
+    width: 90%;
+}
+
+.textLengthWrap {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-size: 0.8rem;
+}
+
+#textBox {
+    color: var(--lol-black);
+    font-weight: 700;
+    width: 100%;
+    padding: 2px 5px;
+    resize: none;
+}
+
+.modal-btn>button,
+.voice-btn-cancel {
+    border: none;
+    width: 40px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.voice-btn-cancel {
+    width: 60px;
+    background-color: #2e2e2e;
+}
+
+.voice-sample-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.voice-sample {
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.modal-btn-send {
+    background-color: var(--lol-teamblue);
+    margin-right: 10px;
+}
+
+.modal-btn-close {
+    background-color: var(--lol-teamred);
+}
+
+.voice {
+    width: 90%;
+}
+
+.voice-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.voice-title>div {
+    width: 10%;
+}
+
+.voice-lineup {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.voice-lineup>div {
+    margin-right: 10px;
+    font-size: 0.8rem;
+}
+
+.chatroom-container {
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chatroom-left {
+    width: 854px;
+    display: flex;
+    padding-bottom: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.shout-container {
+    display: none;
+    text-shadow: -1px 0px var(--lol-black), 
+                0px 1px var(--lol-black), 
+                1px 0px var(--lol-black), 
+                0px -1px var(--lol-black);
+}
+
+.nickname {
+    color: green;
+}
+
+.chatroom-left-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-shout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    background-color: var(--lol-white);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 5px 10px; 
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 160px center;
+}
+
+.btn-shout>span {
+    color: var(--lol-black);
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+.btn-shout>img {
+    width: 20%;
+}
+
+.info-title {
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.chatroom-right {
+    width: 300px;
+    height: 100%;
+}
+
+.chatroom-right-chatboard {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0.5px 1px hsla(0, 0%, 100%, 0.075),
+                0 0 0 1px hsla(0, 0%, 0%, 0.05),
+                0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
+                0 0.9px 1.5px hsla(0, 0%, 0%, 0.045),
+                0 3.5px 6px hsla(0, 0%, 0%, 0.09);
+    position: relative;
+}
+
+.chatboard-title {
+    width: 100%;
+    padding: 10px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    background-color: hsla(0, 0%, 100%, 0.075);
+}
+
+.chatboard-wrapper {
+    width: 100%;
+    height: 453px;
+    overflow-y: scroll;
+    padding: 5px 10px;
+    border-bottom: 1px solid #2e2e2e;
+}
+
+.chatboard-box {
+    width: 100%;
+    height: 100%;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.nickname-list {
+    width: 100%;
+    height: 30px;
+    background-color: var(--lol-white);
+    box-shadow: inset 0 0 0.5px 1px hsla(0, 0%, 100%, 0.075),
+                0 0 0 1px hsla(0, 0%, 0%, 0.05),
+                0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
+                0 0.9px 1.5px hsla(0, 0%, 0%, 0.045),
+                0 3.5px 6px hsla(0, 0%, 0%, 0.09);
+    transition: all 0.4s;
+    overflow-y: hidden;
+    border-left: 1px solid #2e2e2e;
+    position: absolute;
+    z-index: 100 !important;
+    top: 40px;
+    left: 0;
+}
+
+.nickname-list-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    box-shadow: inset 0 0 0.5px 1px hsla(0, 0%, 100%, 0.075),
+                0 0 0 1px hsla(0, 0%, 0%, 0.05),
+                0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
+                0 0.9px 1.5px hsla(0, 0%, 0%, 0.045),
+                0 3.5px 6px hsla(0, 0%, 0%, 0.09);
+}
+
+.nickname-list-title>h5 {
+    color: var(--lol-black);
+}
+
+.nickname-list-title button {
+    width: 12px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.nickname-list-wrapper {
+    width: 100%;
+    height: 190px;
+    overflow-y: scroll;
+}
+
+.nickname-list ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.nickname-list ul>li {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nickname-list ul>li>h5 {
+    color: var(--lol-black);
+    margin-left: 10px;
+}
+
+.nickname-list ul>li>button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+.prohibit {
+    background-color: rgb(255, 208, 0);
+    color: var(--lol-black);
+    cursor: pointer;
+}
+
+.ban {
+    background-color: var(--lol-teamred);
+    cursor: pointer;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.slide {
+    height: 220px;
+}
+
+.chatboard-msg {
+    width: 100%;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 1rem;
+}
+
+.msg-nickname {
+    max-width: 100px;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-right: 5px;
+}
+
+.msg-content {
+    max-width: 160px;
+    line-height: 20px;
+    overflow-wrap: break-word;
+}
+
+.msg-content>img {
+    display: inline-block;
+    width: 20px;
+}
+
+.me {
+    justify-content: end;
+}
+
+.admin>h6:first-of-type {
+    color: #2e2e2e;
+    text-shadow: -1px 0px var(--lol-white), 
+                0px 1px var(--lol-white), 
+                1px 0px var(--lol-white), 
+                0px -1px var(--lol-white);
+}
+
+.notification {
+    justify-content: center;
+}
+
+.notification>h6 {
+    color: rgb(255, 208, 0) !important;
+    font-size: 0.8rem !important;
+}
+
+.chatMsgBox-outer {
+    width: 200px;
+}
+
+#chatMsgBox {
+    padding: 5px;
+    margin-right: 10px;
+    background-color: hsla(0, 0%, 100%, 0.075);
+    border-radius: 6px;
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+	white-space: nowrap;
+}
+
+#chatMsgBox>img {
+    width: 9%;
+    display: inline-block;
+}
+
+.chatboard-send {
+    width: 100%;
+    padding: 0 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.chatboard-send>input {
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+    height: 30px;
+}
+
+.chatboard-send-emoticon {
+    display: none;
+    position: absolute;
+    top: -111px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    background-color: #9E9E9E;
+    overflow-y: scroll;
+    border-left: 1px solid #2e2e2e;
+}
+
+.emoticon-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+
+.emoticon-box>div {
+    width: 15%;
+    margin-right: 10px;
+}
+
+.emoticon-box>div>img {
+    cursor: pointer;
+}
+
+.chatboard-send-emoticon p {
+    color: #2e2e2e;
+    text-align: center;
+}
+
+#emoticonBtn {
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#sendBtn {
+    width: 40px;
+    background-color: var(--lol-teamblue);
+    cursor: pointer;
+}
+
+#sendBtn:hover {
+    background-color: cornflowerblue;
+}

@@ -1,0 +1,493 @@
+* {
+    color: var(--lol-white);
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+table, tr, td {
+    border:none;
+}
+
+.neon {
+    text-shadow: 0 0 3px var(--lol-white), 
+                0 0 0px var(--lol-white), 
+                0 0 0px var(--lol-white), 
+                0 0 0px var(--lol-white), 
+                0 0 0px var(--lol-white), 
+                0 0 3px var(--lol-white), 
+                0 0 5px var(--lol-white);
+}
+
+.team-players {
+    margin-bottom: 60px;
+}
+
+.team-players-info {
+    width: 100%;
+    height: 168px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--lol-white);
+}
+
+.team-players-info>div {
+    width: 420px;
+}
+
+.team-players-info>div:nth-child(2)>img {
+    width: 15%;
+    margin: 0 auto;
+}
+
+.players-name p {
+    color: var(--lol-mainblue);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.name-list {
+    display: flex;
+}
+
+.name-list span {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 20px;
+}
+
+.name-list input[type="button"] {
+    background-color: transparent;
+    border: none;
+    font-size: 3rem;
+    color: var(--lol-white);
+    font-weight: 700;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.player-stats-date {
+    margin: 10px 10px 0 0;
+    text-align: right;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.match-summary {
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.match-summary_date {
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+.match-summary_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.match-summary_content>* {
+    width: 330px;
+    text-align: center;
+}
+
+.match-summary_content>h2 {
+    font-size: 4rem;
+}
+
+.summary_content-team {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary_content-team>div {
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary_content-team img {
+    margin: auto;
+    width: 50%;
+}
+
+.bar-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar-layout>hr {
+    height: 5px;
+    background-color: var(--lol-white);
+}
+
+.bar-layout>p {
+    padding: 0 40px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.set-tab {
+    display: flex;
+    list-style-type: none;
+    border-bottom: 3px solid var(--lol-white);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.set-tab_btn {
+    display: block;
+    padding: 8px 40px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.active {
+    background-color: var(--lol-white);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    color: var(--lol-black);
+}
+
+.set-container {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.set-result-top * {
+    font-weight: 700;
+}
+
+.set-result {
+    width: 100%;
+    display: none;
+}
+
+.show { 
+    display: block; 
+}
+
+.top-victory_or_defeat,
+.side_and_team {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.top-victory_or_defeat>p {
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.team {
+    width: 400px;
+}
+
+.team>* {
+    width: 120px;
+}
+
+.side, .team,
+.team-blue, .team-red {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team img {
+    width: 80%;
+}
+
+.team-blue, 
+.team-red {
+    width: 150px;
+}
+
+.side {
+    width: 130px;
+}
+
+.side div {
+    width: 30px;
+}
+
+.vertical_line {
+    border-left: 2px solid var(--lol-white);
+    width: 0.1px;
+    height: 120%;
+}
+
+.set-table {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: none;
+    border-collapse: separate;
+    border-spacing: 0 20px;
+}
+
+.set-table tr {
+    height: 90px;
+}
+
+.set-table:last-child td {
+    height: 240px;
+}
+
+.set-table td:first-child {
+    text-align: right;
+}
+
+.set-table td:nth-child(2) {
+    width: 180px;
+    text-align: center;
+}
+
+.set-table td:last-child {
+    text-align: left;
+}
+
+.banned-blue,
+.banned-red {
+    width: 540px;
+    display: flex;
+    align-items: center;
+}
+
+.banned-blue {
+    justify-content: right;
+}
+
+.banned-red {
+    justify-content: left;
+}
+
+.set-category {
+    font-weight: 900;
+    background-color: var(--lol-white);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 40px;
+    color: var(--lol-black);
+    text-align: center;
+}
+
+.set-position {
+    padding: 90px 10px;
+}
+
+.banned-blue>div,
+.banned-red>div {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.champion-layout {
+    width: 60%;
+    border: 3px solid var(--lol-white);
+    border-radius: 50%;
+}
+
+.banned-blue img,
+.banned-red img {
+    filter: grayscale(100%);
+    margin-bottom: 5px;
+}
+
+.set-kills {
+    margin: 0 30px;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.set-objects {
+    width: 200px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.set-objects:first-child {
+    margin-right: 30px;
+    margin-left: auto;
+}
+
+.set-objects:last-child {
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.set-objects-obj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.set-player-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.set-player-content>* {
+    margin-bottom: 10px;
+}
+
+.set-player-content>h2 {
+    font-size: 2rem;
+}
+
+.blue-player-name {
+    text-align: left;
+}
+
+.red-player-name {
+    text-align: right;
+}
+
+.set-champion-content,
+.set-champion-item,
+.set-champion-info {
+    display: flex;
+    align-items: center;
+}
+
+.set-champion-content>* {
+    margin-bottom: 10px;
+}
+
+.player-champ-sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.player-champ-sub>h3 {
+    text-align: left;
+}
+
+.player-champion-img {
+    width: 70px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.player-champion-img>img {
+    width: 100%;
+}
+
+.set-champion-spell {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.set-champion-spell>img {
+    width: 25%;
+    margin-right: 5px;
+    border-radius: 12px;
+}
+
+.set-champion-item {
+    position: relative;
+    width: 350px;
+}
+
+.set-champion-item>img {
+    width: 13%;
+    margin-right: 5px;
+    border-radius: 12px;
+}
+
+.set-champion-stats {
+    width: 100%;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.set-champion-stats span {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #5F5F5F;
+}
+
+.match-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.match-table td {
+    width: 180px;
+    height: 105px;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid var(--lol-white);
+}
+
+.match-table_team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.match-table_option {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.match-table img {
+    width: 30%;
+}
+
+.team_versus {
+    margin-right: 20px;
+    text-align: right;
+}
+
+.match-btn {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 20px;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 12px;
+    background-color: var(--lol-white);
+    color: var(--lol-black);
+    font-size: 1rem;
+    font-weight: 700;
+}
