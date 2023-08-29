@@ -49,13 +49,6 @@ Version Control System|Git / github
 
 <br/>
 
-
-## 🖌️디자인
-
-![image](https://github.com/inhoru/smallus/assets/126074577/751811c6-bba2-4cbd-88c5-9bbb48ace1d0)
-
-<br/>
-
 ## ⭐구현화면
 
 <br/>
@@ -63,7 +56,8 @@ Version Control System|Git / github
 ## 1) 메인화면
 
 
-![localhost_8080_GDJ64_smallus_semi_index jsp (1)](https://github.com/inhoru/smallus/assets/126074577/85ec40ce-cb84-4509-a878-6d8679cbd274)
+![Animation](https://github.com/inhoru/lolcogg/assets/126074577/b15f01c3-f5bc-44c0-bcb2-c5377c69ad7b)
+
 
 
 ## 2) 로그인 & 회원가입
