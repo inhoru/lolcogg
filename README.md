@@ -56,8 +56,6 @@ Version Control System|Git / github
 ## 1) 메인화면
 
 
-![Animation](https://github.com/inhoru/lolcogg/assets/126074577/b15f01c3-f5bc-44c0-bcb2-c5377c69ad7b)
-
 
 
 ## 2) 로그인 & 회원가입
