@@ -113,11 +113,12 @@ Version Control System|Git / github
 ## 포인트상점
 
 
-![포인트상점](https://github.com/inhoru/lolcogg/assets/126074577/ddd07f5d-27e0-4be4-abf3-2edc542d2583)
+![포인트상점](https://github.com/inhoru/lolcogg/assets/126074577/66f8b5ef-ab1b-448d-ae0a-7bbdac5c7a41)
 
 
+![아이템구매1](https://github.com/inhoru/lolcogg/assets/126074577/12a5ac43-6800-4fd6-983d-072ff0add7c8)
 
-![카드구매](https://github.com/inhoru/lolcogg/assets/126074577/aeedd236-b588-4494-bb73-60156010fe1a)
+
 
 
 <br/>
@@ -137,6 +138,9 @@ Version Control System|Git / github
 
 ![롤퀴즈](https://github.com/inhoru/lolcogg/assets/126074577/e03a67b1-50ae-436a-96ed-8fcc23fae724)
 
+![이상형월드컵](https://github.com/inhoru/lolcogg/assets/126074577/169ff154-a1f6-4cc2-9bac-2aca37321fb2)
+
+![포로대모험](https://github.com/inhoru/lolcogg/assets/126074577/595e4527-fcb2-424b-a7df-4bc8a78b2df0)
 
 <br/>
 
