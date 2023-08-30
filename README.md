@@ -69,9 +69,10 @@ Version Control System|Git / github
 
 <br/>
 
-- 호스트
+- 마이페이지
 
-![localhost_8080_GDJ64_smallus_semi_hostLoginMove do](https://github.com/inhoru/smallus/assets/126074577/f90a812d-0c0f-4d6e-b3b0-44bdc7b6d110)
+![마이페이지](https://github.com/inhoru/lolcogg/assets/126074577/7d4558d4-90df-49ec-aa74-e809b827a676)
+
 
 
 
