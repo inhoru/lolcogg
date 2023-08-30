@@ -64,8 +64,8 @@ Version Control System|Git / github
 ![로그인](https://github.com/inhoru/lolcogg/assets/126074577/2b095311-1243-4b68-b77a-322d69f86fdc)
 
 
+![회원가입](https://github.com/inhoru/lolcogg/assets/126074577/611358a4-860b-40bb-a603-5e5b49135b07)
 
-![localhost_8080_GDJ64_smallus_semi_views_member_enrollMember jsp](https://github.com/inhoru/smallus/assets/126074577/d753c7af-6d5d-4a75-829a-b84085c7ca00)
 
 <br/>
 
