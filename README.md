@@ -61,8 +61,8 @@ Version Control System|Git / github
 
 ## 2) 로그인 & 회원가입
 
-- 일반회원
-![localhost_8080_GDJ64_smallus_semi_memberLoginMove do](https://github.com/inhoru/smallus/assets/126074577/bf311037-e294-4dae-8d1b-c12c42acee19)
+![로그인](https://github.com/inhoru/lolcogg/assets/126074577/2b095311-1243-4b68-b77a-322d69f86fdc)
+
 
 
 ![localhost_8080_GDJ64_smallus_semi_views_member_enrollMember jsp](https://github.com/inhoru/smallus/assets/126074577/d753c7af-6d5d-4a75-829a-b84085c7ca00)
