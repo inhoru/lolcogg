@@ -69,132 +69,80 @@ Version Control System|Git / github
 
 <br/>
 
-- 마이페이지
+## 3)마이페이지
 
 ![마이페이지](https://github.com/inhoru/lolcogg/assets/126074577/7d4558d4-90df-49ec-aa74-e809b827a676)
 
-
-
-
-![localhost_8080_GDJ64_smallus_semi_views_host_enrollHost jsp](https://github.com/inhoru/smallus/assets/126074577/12437579-53ac-4fdc-81e7-7216468396a0)
-
 <br/>
 
-## 마이페이지
 
-- 메인
-![image](https://github.com/inhoru/smallus/assets/126074577/e5433806-ac5c-4c38-8da9-d37f135a6d8f)
-![image](https://github.com/inhoru/smallus/assets/126074577/09849afc-081f-4452-9acc-809608d9c052)
+## LCK
 
-
-- 프로필수정
-![image](https://github.com/inhoru/smallus/assets/126074577/5effb0ee-a535-4389-a032-361aaf4ccbda)
+![경기일정](https://github.com/inhoru/lolcogg/assets/126074577/3f9fb957-299d-4230-aba8-290c61dee228)
 
 
 
- - 결제내역
-![image](https://github.com/inhoru/smallus/assets/126074577/b7313b29-6dc8-4d4c-aae5-383bf43906ea)
-![image](https://github.com/inhoru/smallus/assets/126074577/da4e50dd-f48c-4781-81eb-3e5f0211e859)
-
-- 1:1 문의
-![image](https://github.com/inhoru/smallus/assets/126074577/05e602af-94e0-4905-a460-2e2070ce1fa9)
-![image](https://github.com/inhoru/smallus/assets/126074577/686fd4a4-9ca3-43d5-b3de-4ab3480ca679)
+![팀데이터](https://github.com/inhoru/lolcogg/assets/126074577/5c946e80-4baa-4f93-a83e-57aa1932c778)
 
 
-- 쿠폰관리
-![image](https://github.com/inhoru/smallus/assets/126074577/d63d8e5d-351d-466e-bc28-1572dfcac8ea)
+
+![승부예측](https://github.com/inhoru/lolcogg/assets/126074577/1ae674ca-2df3-4d2f-a0d7-aaf0398a5217)
+
+
+![실시간채팅](https://github.com/inhoru/lolcogg/assets/126074577/f19f0ff2-cb00-4d8e-abd2-0d86b77ca89c)
 
 
 <br/>
 
+## 커뮤니티
 
-## 호스트 마이페이지
-
-- 메인
-![image](https://github.com/inhoru/smallus/assets/126074577/a83fa1d1-4674-486c-8328-1d18a86ec60c)
-![image](https://github.com/inhoru/smallus/assets/126074577/92d61a31-5abd-4ea5-afea-fcb4e4e907e5)
-
-- 프로필 수정
-
-![image](https://github.com/inhoru/smallus/assets/126074577/109fdd37-d2d1-463b-8e0b-48c2600fb2be)
-
-
-- 내클래스 보기
-![image](https://github.com/inhoru/smallus/assets/126074577/2315bad0-aeec-4da7-81d9-7ca3f6ba88a3)
-
-- 클래스 등록
-![image](https://github.com/inhoru/smallus/assets/126074577/31d685d2-c5c4-4286-a264-cf89ea37f7c0)
-![image](https://github.com/inhoru/smallus/assets/126074577/26c86591-6a47-43b3-b7f9-00bcad4b441b)
-
-
-- 예약내역
-![image](https://github.com/inhoru/smallus/assets/126074577/bc48bfe0-bd95-4259-bc4c-0eff0785c6c6)
-![image](https://github.com/inhoru/smallus/assets/126074577/2f7c2743-8153-48c0-99a3-9afc5a2d77e1)
+![커뮤니티](https://github.com/inhoru/lolcogg/assets/126074577/5587e304-ff16-44b2-aee1-6ffcb2e0e2d3)
 
 
 
-- 정산관리
-![image](https://github.com/inhoru/smallus/assets/126074577/9980a285-a796-489f-b2cb-0d8a304b5c5f)
+![공지사항](https://github.com/inhoru/lolcogg/assets/126074577/3e364d42-5ae6-498e-98ca-bd0105d661f3)
+
+
+![문의하기](https://github.com/inhoru/lolcogg/assets/126074577/017e5293-741e-4b85-87a6-f3b82ca755f0)
 
 
 
 <br/>
 
+## 포인트상점
 
-## 클래스 상세 & 결제
 
-- 클래스 상세 페이지
-![image](https://github.com/inhoru/smallus/assets/126074577/4a1f41c4-5d50-4614-8cce-84bd3c08a47f)
-![image](https://github.com/inhoru/smallus/assets/126074577/1da06979-7885-4d19-8d70-f65ce3e74d40)
+![포인트상점](https://github.com/inhoru/lolcogg/assets/126074577/ddd07f5d-27e0-4be4-abf3-2edc542d2583)
 
-- 클래스 결제
 
-![image](https://github.com/inhoru/smallus/assets/126074577/3b7818d7-c255-4044-9ec5-9b31a143d0e2)
+
+![카드구매](https://github.com/inhoru/lolcogg/assets/126074577/aeedd236-b588-4494-bb73-60156010fe1a)
 
 
 <br/>
 
+## 플레이
+
+![카드메인](https://github.com/inhoru/lolcogg/assets/126074577/37b310be-03b8-4d51-8ee0-c8b710e1adf3)
+
+
+![대표카드](https://github.com/inhoru/lolcogg/assets/126074577/419d4c10-7c20-48a6-bbef-46ab3c04d88e)
+
+
+![카드업적](https://github.com/inhoru/lolcogg/assets/126074577/ea4cd747-6551-4ff3-bbe2-9c15a4768894)
+
+![카드카탈로그](https://github.com/inhoru/lolcogg/assets/126074577/88ac87ea-5d2e-4660-bb40-eceaabd5b998)
+
+![챔피언 예측](https://github.com/inhoru/lolcogg/assets/126074577/33b8a6c2-8203-4235-a813-8914876ee1b8)
+
+![챔피언퀴즈](https://github.com/inhoru/lolcogg/assets/126074577/be170eb9-6451-433f-a93a-92196e7bfa9e)
+
+![이상형월드컵](https://github.com/inhoru/lolcogg/assets/126074577/dc3d7441-c520-4836-88b5-05b23db1b95e)
+
+![포로의대모험12](https://github.com/inhoru/lolcogg/assets/126074577/17be6b58-68b9-41f6-870c-282dd1760278)
+
+<br/>
 
 ## 관리자페이지
 
-- 메인
-
-![image](https://github.com/inhoru/smallus/assets/126074577/133cec6f-6f38-4e9c-a847-2bb774ec1dc0)
-
-- 회원관리
-![image](https://github.com/inhoru/smallus/assets/126074577/1fbc254e-6180-466a-861c-ea65263792f8)
-![image](https://github.com/inhoru/smallus/assets/126074577/93230c4a-dd94-4795-9eb5-33dc293f4f12)
-
-- 등록된 클래스 관리
-![image](https://github.com/inhoru/smallus/assets/126074577/746bf473-72ca-4cbc-84f8-f7ea81ef21a6)
-- 클래스 승인
-![image](https://github.com/inhoru/smallus/assets/126074577/91b6dc50-b36d-412d-952c-378ca91594cd)
-
-- 정산관리
-![image](https://github.com/inhoru/smallus/assets/126074577/40e0c802-13e4-48aa-be74-e550ee1641ec)
-
-
-- 정상 승인
-![image](https://github.com/inhoru/smallus/assets/126074577/e9550b7a-3df8-44c2-a103-fac332164a2a)
-
-- 공지사항
-![image](https://github.com/inhoru/smallus/assets/126074577/80d46b52-1575-45f1-940c-467647708cfd)
-
-- 1:1 문의관리
-![image](https://github.com/inhoru/smallus/assets/126074577/a52bc329-2ecd-4bfc-8d90-cf54a2576e3b)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![관리자페이지](https://github.com/inhoru/lolcogg/assets/126074577/83c76696-9782-497e-8227-9e5de4b489fb)
