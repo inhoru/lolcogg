@@ -36,7 +36,7 @@ Version Control System|Git / github
 ## 📆프로젝트 기간
 
 2023.7.11 ~ 2023.8.17<br/>
-[파이널프로젝트 후기](https://inhoru126.tistory.com/manage/posts/)
+[파이널프로젝트 후기](https://inhoru126.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EB%84%90-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-lolcogg-%ED%9B%84%EA%B8%B0)
 
 <br/>
 
