@@ -89,7 +89,8 @@ Version Control System|Git / github
 ![승부예측](https://github.com/inhoru/lolcogg/assets/126074577/1ae674ca-2df3-4d2f-a0d7-aaf0398a5217)
 
 
-![실시간채팅](https://github.com/inhoru/lolcogg/assets/126074577/f19f0ff2-cb00-4d8e-abd2-0d86b77ca89c)
+![실시간채팅](https://github.com/inhoru/lolcogg/assets/126074577/75a5f56b-aa75-47c6-afdd-19c9ecb056fc)
+
 
 
 <br/>
@@ -123,23 +124,19 @@ Version Control System|Git / github
 
 ## 플레이
 
-![카드메인](https://github.com/inhoru/lolcogg/assets/126074577/37b310be-03b8-4d51-8ee0-c8b710e1adf3)
+![나의카드](https://github.com/inhoru/lolcogg/assets/126074577/bc12bbb3-2abc-465f-ac3c-663c8d0d8f67)
 
 
-![대표카드](https://github.com/inhoru/lolcogg/assets/126074577/419d4c10-7c20-48a6-bbef-46ab3c04d88e)
+![카드카탈로그](https://github.com/inhoru/lolcogg/assets/126074577/24a730d7-df4f-4037-8ab1-d0ced7e25c4e)
 
 
-![카드업적](https://github.com/inhoru/lolcogg/assets/126074577/ea4cd747-6551-4ff3-bbe2-9c15a4768894)
+![카드업적](https://github.com/inhoru/lolcogg/assets/126074577/661a2ef1-edb1-4afc-9975-8d7a8d4b0ba7)
 
-![카드카탈로그](https://github.com/inhoru/lolcogg/assets/126074577/88ac87ea-5d2e-4660-bb40-eceaabd5b998)
 
-![챔피언 예측](https://github.com/inhoru/lolcogg/assets/126074577/33b8a6c2-8203-4235-a813-8914876ee1b8)
+![챔피언 예측](https://github.com/inhoru/lolcogg/assets/126074577/e1765236-e76b-4875-85a3-7fd70e733c9d)
 
-![챔피언퀴즈](https://github.com/inhoru/lolcogg/assets/126074577/be170eb9-6451-433f-a93a-92196e7bfa9e)
+![롤퀴즈](https://github.com/inhoru/lolcogg/assets/126074577/e03a67b1-50ae-436a-96ed-8fcc23fae724)
 
-![이상형월드컵](https://github.com/inhoru/lolcogg/assets/126074577/dc3d7441-c520-4836-88b5-05b23db1b95e)
-
-![포로의대모험12](https://github.com/inhoru/lolcogg/assets/126074577/17be6b58-68b9-41f6-870c-282dd1760278)
 
 <br/>
 
