@@ -24,7 +24,6 @@
 
 Language | Java, Servlet/JSP, HTML5, CSS3, JavaScript
 ------------ | ------------- 
-Web Application Server | Apache Tomcat 9.0
 Database|Oracle
 Framework & Open Api|Ajax, jQuery, Json,I'mport,Kakao Developers, three.js , Spring Boot
 Document| erdCloud,Notion,figma
