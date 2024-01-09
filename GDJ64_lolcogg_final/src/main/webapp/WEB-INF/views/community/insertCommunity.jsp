@@ -41,6 +41,7 @@
 									<input type="text" placeholder="제목" name="title" maxlength="30"> <input
 										type="text" id="myInput" placeholder="유튜브동영상만 가능합니다. 주소를 입력해주세요(선택)"
 										oninput="fetchVideoData()" name="video" maxlength="250">
+										<input type="hidden" name="id" id="videoId" value="">
 
 								</div>
 								<div class="insert-video content"></div>
@@ -142,16 +143,16 @@
             // youtu.be는 유튜브이 짧은 uri주소
             if (videoUrlInput.includes('youtu.be')) {
                 videoId = videoUrlInput.split('youtu.be/')[1];
+                var ampersandPosition = videoId.indexOf('?');
+                videoId = videoId.substring(0, ampersandPosition);
+            
             }
 
             // youtu.be를 포함하지않을경우 
             //유튜브영상 id저장
             else if (videoUrlInput.includes('watch?v=')) {
-                videoId = videoUrlInput.split('watch?v=')[1];
-                var ampersandPosition = videoId.indexOf('&');
-                if (ampersandPosition !== -1) {
-                    videoId = videoId.substring(0, ampersandPosition);
-                }
+               videoId = videoUrlInput.split('watch?v=')[1];
+               
             }
 
             //사용자가 유효한 YouTube 동영상 URL을 입력하지 않은 경우
@@ -159,6 +160,7 @@
                 document.getElementsByClassName('insert-video')[0].innerHTML = '';
                 return;
             }
+            document.getElementById('videoId').value = videoId;
 
             //youTube oEmbed API의 URL을 생성하고, 이를 apiUrl에 저장한다.
             //영상에대한 정보제공

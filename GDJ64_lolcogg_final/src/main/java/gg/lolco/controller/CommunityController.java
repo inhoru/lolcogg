@@ -149,19 +149,12 @@ public class CommunityController {
 	@PostMapping("/insertCommunityEnd")
 	public String submitContent(@RequestParam("boardCategories") String boardCategories,
 			@RequestParam("content1") String content, @RequestParam("title") String title,
-			@RequestParam("video") String video, @SessionAttribute("loginMember") Member member, HttpSession session,
+			@RequestParam("id") String video, @SessionAttribute("loginMember") Member member, HttpSession session,
 			Model m) {
 
-		// 유튜브주소 임베드형식으로 변경로직
-		if (!video.trim().isEmpty()) { // video 파라미터가 빈 문자열이 아닐 때만 처리
-			Pattern pattern = Pattern.compile(
-					"(?<=v=|v\\/|\\/videos\\/|embed\\/|\\/youtu.be\\/|\\/\\/music\\.youtube\\.com\\/watch\\?v=|\\/\\/music\\.youtube\\.com\\/watch\\/\\?v=)([^#&?\\n<>]+)");
-			Matcher matcher = pattern.matcher(video);
-			if (matcher.find()) {
-				String videoId = matcher.group(1);
-				video = "https://www.youtube.com/embed/" + videoId; // 임베드 주소 형식으로 video 변수 업데이트
-			}
-		}
+		
+	
+		video = "https://www.youtube.com/embed/" + video; // 임베드 주소 형식으로 video 변수 업데이트
 
 		String email = member.getEmail();
 		int insertCommunity = service.insertCommunity(Map.of("boardCategories", boardCategories, "title", title,
@@ -466,18 +459,11 @@ public class CommunityController {
 	@PostMapping("/updateBoard")
 	public String updateBoard(@RequestParam("boardCategories") String boardCategories,
 			@RequestParam("content1") String content, @RequestParam("title") String title,
-			@RequestParam("video") String video, HttpSession session, @RequestParam("boardNo") int boardNo, Model m) {
+			@RequestParam("id") String video, HttpSession session, @RequestParam("boardNo") int boardNo, Model m) {
 		System.out.println(boardNo);
-		// 유튜브주소 임베드형식으로 변경로직
-		if (!video.trim().isEmpty()) { // video 파라미터가 빈 문자열이 아닐 때만 처리
-			Pattern pattern = Pattern.compile(
-					"(?<=v=|v\\/|\\/videos\\/|embed\\/|\\/youtu.be\\/|\\/\\/music\\.youtube\\.com\\/watch\\?v=|\\/\\/music\\.youtube\\.com\\/watch\\/\\?v=)([^#&?\\n<>]+)");
-			Matcher matcher = pattern.matcher(video);
-			if (matcher.find()) {
-				String videoId = matcher.group(1);
-				video = "https://www.youtube.com/embed/" + videoId; // 임베드 주소 형식으로 video 변수 업데이트
-			}
-		}
+	
+
+		video = "https://www.youtube.com/embed/" + video; // 임베드 주소 형식으로 video 변수 업데이트
 
 		int updateBoard = service.updateBoard(Map.of("boardCategories", boardCategories, "title", title, "video", video,
 				"content", content, "boardNo", boardNo));
