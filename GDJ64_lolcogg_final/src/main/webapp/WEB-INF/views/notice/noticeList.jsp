@@ -34,7 +34,7 @@
 					</div>
 
 					<c:if
-						test="${ loginMember.email.equals('v/9KW8XkKWoi3J+frCQCdg==')}">
+						test="${ loginMember.email.equals('TuzKozk+eisL2igM23VlcQ==')}">
 						<div class="remove-button-div">
 							<button class="remove-button"
 								onclick="location.assign('${path}/notice/insertNotice')">
